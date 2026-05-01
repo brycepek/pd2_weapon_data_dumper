@@ -1,0 +1,14 @@
+{
+  "name": "PD2 Weapon Data Dumper",
+  "description": "Dumps live PAYDAY 2 tweak_data weapon tables to JSON in the mods/pd2_weapon_data_dumper folder.",
+  "author": "Bryce",
+  "contact": "",
+  "version": "1.0",
+  "blt_version": 2,
+  "persist_scripts": [
+    {
+      "global": "PD2WeaponDataDumperDone",
+      "script_path": "dump_weapon_data.lua"
+    }
+  ]
+}
